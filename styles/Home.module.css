@@ -51,8 +51,8 @@
 }
 
 .description {
-  margin: 4rem 0;
-  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
   font-size: 1.5rem;
 }
 
