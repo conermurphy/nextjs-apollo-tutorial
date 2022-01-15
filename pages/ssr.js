@@ -43,7 +43,7 @@ export default function Home({nextLaunch}) {
   )
 }
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
   const { data } = await client.query({
     query: gql`
       query NextLaunch {
