@@ -17,7 +17,7 @@ export default function Home({nextLaunch}) {
 
   const {mission_name, launch_date_local, launch_site} = nextLaunch;
 
-  const nextLaunchDate = fetchDate(launch_date_local).join('/')
+  const nextLaunchDate = fetchDate(launch_date_local).join('/');
 
   return (
     <div className={styles.container}>
